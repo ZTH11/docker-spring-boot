@@ -1,4 +1,4 @@
-FROM openjdk:11-oracle
+FROM openjdk:17-oracle
 VOLUME /tmp
 COPY target/springbootApp.jar springbootApp.jar
 # java -jar /opt/app/app.jar
